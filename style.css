@@ -1,0 +1,111 @@
+/* 'Open Sans', sans-serif;     main text */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap');
+
+/* 'Raleway', sans-serif;    header text */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Raleway&display=swap');
+
+
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 590px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+:root {
+    --FONT-HEADER: 'Raleway', sans-serif;
+    --COLOR-MAIN: hsla(22, 80%, 54%, 0.897);
+}
+
+.header__title {
+    margin-top: 106px;
+    text-transform: uppercase;
+    font-family: var(--FONT-HEADER);
+    font-size: 24px;
+    letter-spacing: 0.3em;
+}
+
+.header__line {
+    margin: 33px auto;
+    width: 64px;
+    height: 1px;
+    border-top: 2px solid var(--COLOR-MAIN);
+}
+
+.header__text {
+    margin-top: 30px;
+    margin-bottom: 75px;
+    font-size: 14px;
+    font-family: var(--FONT-HEADER);
+}
+
+.container {
+    width: 350px;
+    height: 197px;
+    display: inline-block;
+}
+
+.icon {
+    border: 1px solid var(--COLOR-MAIN);
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 140px;  
+    position: relative;
+}
+
+.fa-lightbulb-o::before {
+    top: 16px;
+    left: 25px;
+    position: absolute;
+    color: var(--COLOR-MAIN);
+}
+
+.fa-keyboard-o::before {
+    top: 16px;
+    left: 18px;
+    position: absolute;
+    color: var(--COLOR-MAIN);
+}
+
+.fa-bolt::before {
+    top: 18px;
+    left: 27px;
+    position: absolute;
+    color: var(--COLOR-MAIN);
+}
+
+.cont__left {
+    margin-left: 143px;
+}
+
+.cont__center {
+    margin-top: 15px;
+    margin-right: 26px;
+    margin-left: 26px;
+}
+
+.cont__right {
+    margin-right: 143px;
+}
+
+.container__text {
+    margin: 0px;
+}
+
+.container__title {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
